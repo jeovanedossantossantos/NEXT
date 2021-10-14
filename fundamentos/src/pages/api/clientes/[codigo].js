@@ -3,7 +3,8 @@ export default function handler(req, res) {
     res.status(200).json({
         id: codigo,
         nome: `Maria ${codigo}`,
-        idade: 33
+        idade: 33,
+        email: 'jeovane.ssantos@outlook.com'
     })
     
 }

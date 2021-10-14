@@ -6,6 +6,7 @@ export default function handler(req, res) {
     metodo: req.method,
     params: JSON.stringify(req.query),
     nome: req.query.nome,
-    idade: +req.query.idade
+    idade: +req.query.idade,
+    email: req.query.email
   })
 }

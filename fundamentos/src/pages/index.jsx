@@ -17,6 +17,8 @@ export default function Inicio() {
             <Navegador texto="Navegação #01" destino='/navegacao' cor='crimson'></Navegador>
             <Navegador texto="Navegação #02" destino='/clientes/sp/123' cor='crimson'></Navegador>
             <Navegador texto="Navegação #03" destino='/estado' cor='crimson'></Navegador>
+            <Navegador texto="Integração" destino='/integracao_1' cor='blue'></Navegador>
+            <Navegador texto="Conteudo Estatico" destino='/estatico' cor='blue'></Navegador>
         </div>
         )
     
